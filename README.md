@@ -11,7 +11,7 @@ $ yarn build
 
 ## Config
 
-ormconfigを作成する。
+ormconfigを作成する。  
 https://typeorm.io/#/using-ormconfig
 
 
@@ -45,14 +45,12 @@ ormconfigのname属性を参照し、指定されたdatabaseNameに一致する�
 
 ### exit;
 
-アプリを終了します。
+アプリを終了します。  
 データベースへ接続している場合、その接続を終了します。
 
 
 ### その他
 
-SQLとして、現在接続しているデータベースへ送信します。
+現在接続しているデータベースへSQLとして送信します。  
 データベースに接続していない場合、エラーを返します。
-
-
 
